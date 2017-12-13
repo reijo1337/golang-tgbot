@@ -23,3 +23,8 @@
 [[constraint]]
   name = "gopkg.in/telegram-bot-api.v4"
   version = "4.6.1"
+
+[metadata.heroku]
+  root-package = "github.com/reijo1337/golang-tgbot"
+  go-version = "1.8.3"
+  install = [ "./..." ]
